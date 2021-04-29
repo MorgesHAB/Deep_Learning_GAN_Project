@@ -16,3 +16,18 @@ At the end of the project, we will select the best GAN model from our experiment
 
 # Software package
 We will use TensorFlow and Keras because a lot of papers about GANs use these libraries. It also seems that TensorFlow has a larger community than PyTorch in this field. 
+
+# Useful links
+* [How to Code the GAN Training Algorithm and Loss Functions](https://machinelearningmastery.com/how-to-code-the-generative-adversarial-network-training-algorithm-and-loss-functions/)
+* [How to Evaluate Generative Adversarial Networks](https://machinelearningmastery.com/how-to-evaluate-generative-adversarial-networks/)
+* [How to Develop an Auxiliary Classifier GAN (AC-GAN) From Scratch with Keras](https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/)
+* [Understanding ACGANs with code[PyTorch]](https://towardsdatascience.com/understanding-acgans-with-code-pytorch-2de35e05d3e4)
+* [GANS-awesome-applications](https://github.com/nashory/gans-awesome-applications#gans-awesome-applications)
+* [Deep Convolutional Generative Adversarial Network Example](https://wizardforcel.gitbooks.io/tensorflow-examples-aymericdamien/content/3.12_dcgan.html)
+* [TensorFlow - Deep Convolutional Generative Adversarial Network](https://www.tensorflow.org/tutorials/generative/dcgan?hl=en)
+* [How to Develop a Conditional GAN (cGAN) From Scratch](https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/)
+* [How to Build a DCGAN with PyTorch](https://towardsdatascience.com/how-to-build-a-dcgan-with-pytorch-31bfbf2ad96a)
+* [PyTorch - DCGAN TUTORIAL](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+* []()
+
+
