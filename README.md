@@ -1,9 +1,9 @@
 # Deep Learning GAN Project
 KTH DD2424 Deep Learning Project
 
-Jeremy Goumaz
-Alexander Klukas
-Lionel Isoz
+Jeremy Goumaz   
+Alexander Klukas  
+Lionel Isoz  
 
 
 # Description
