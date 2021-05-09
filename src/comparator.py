@@ -10,5 +10,7 @@ for i in range(len(data1)):
         score +=1
 
 print("score", score, "likelihood", score/len(data1))
+print("HEY jere")
 
+print("TEST 2")
 
