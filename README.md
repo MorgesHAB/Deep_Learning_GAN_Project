@@ -35,6 +35,8 @@ We will use TensorFlow and Keras because a lot of papers about GANs use these li
 * [How to Develop a Conditional GAN (cGAN) From Scratch](https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/)
 * [How to Build a DCGAN with PyTorch](https://towardsdatascience.com/how-to-build-a-dcgan-with-pytorch-31bfbf2ad96a)
 * [PyTorch - DCGAN TUTORIAL](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+* [Having Fun with Deep Convolutional GANs](https://naokishibuya.medium.com/having-fun-with-deep-convolutional-gans-f4f8393686ed#:~:text=The%20Difference%20between%20the%20Simple,a%20simple%20fully%20connected%20network.&text=The%20generator%20of%20the%20DCGAN,sampling%20of%202D%20image%20size.)
+* [How to Train a GAN? Tips and tricks to make GANs work](https://github.com/soumith/ganhacks)
 * []()
 
 
