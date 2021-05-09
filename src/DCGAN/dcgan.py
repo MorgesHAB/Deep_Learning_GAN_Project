@@ -1,7 +1,7 @@
 # DCGAN example
 
 import tensorflow as tf
-print("hey")
+print("hello")
 
 import glob
 import imageio
