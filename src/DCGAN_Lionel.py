@@ -161,18 +161,18 @@ def train(GAN, dataset, n_epochs=100, batch_size=256, latent_dim=100, img_nbr=10
             X, y = np.vstack((X_real, X_fake)), np.vstack((y_real, y_fake))
 
             discriminator.trainable = True
-            discriminator.train_on_batch(X, y)
+            d_loss, d_acc = discriminator.train_on_batch(X, y)
 
             # Train Adversarial model
             X_latent2 = tf.random.normal(shape=[batch_size, latent_dim])
             y_fool = np.ones((batch_size, 1))  # create inverted labels for the fake samples
 
             discriminator.trainable = False
-            GAN.train_on_batch(X_latent2, y_fool)
+            gan_loss, gan_acc = GAN.train_on_batch(X_latent2, y_fool)
 
             # Print result
-            if j % 100 == 0:
-                print(f"Epoch {epoch} Batch {j}/{nbr_batches} ")
+            print(f"Epoch {epoch} Batch {j}/{nbr_batches} Discriminator: Loss: {d_loss:0.3f} Acc: {d_acc:2.2%}  GAN: Loss: {gan_loss:0.3f}, Acc {gan_acc:2.2%}")
+
         if epoch % 20 == 0:
             discriminator.save('discri_epoch_{:04d}'.format(epoch))
 
